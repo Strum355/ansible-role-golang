@@ -92,7 +92,7 @@
    - GOROOT_BOOTSTRAP is not defined
    - build_go_from_source
 
-- name: "Go-Lang | Define version comparrison string"
+- name: "Go-Lang | Define version comparison string"
   set_fact:
     go_version_string: "go{{ go_version }}"
   changed_when: false
